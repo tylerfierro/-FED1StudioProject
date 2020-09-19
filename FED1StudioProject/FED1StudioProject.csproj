@@ -67,6 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Classes.html" />
+    <Content Include="Contact.html" />
+    <Content Include="CSS\custom.css" />
+    <Content Include="CSS\FED1StudioProject.css" />
+    <Content Include="FED1StudioProject.css" />
+    <Content Include="Index.html" />
+    <Content Include="Team.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -82,13 +89,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CSS\" />
     <Folder Include="Images\" />
     <Folder Include="JS\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
@@ -107,6 +116,9 @@
           <CustomServerUrl>
           </CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+          <servers defaultServer="SelfHostServer">
+            <server name="SelfHostServer" exePath="" cmdArgs="" url="http://localhost:57066/" workingDir="" />
+          </servers>
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>

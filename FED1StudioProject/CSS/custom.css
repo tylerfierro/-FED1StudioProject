@@ -1,0 +1,165 @@
+﻿main {
+    background-color: silver;
+}
+
+header {
+    background-color: gold;
+}
+
+footer {
+    background-color: gold;
+}
+
+main {
+    background-color: lightgrey;
+}
+
+/*#region Navigation Bar*/
+nav.navBar {
+    background-color: #ffc13b;
+}
+
+nav.navBarli {
+    list-style-type: none;
+    list-style-image: none;
+    display: inline-block;
+    padding: 0em 5em;
+}
+
+header {
+    background-color: azure;
+}
+
+footer {
+    font-style: italic;
+}
+
+h1 {
+    color: red;
+    font-size: 28px;
+}
+
+h2 {
+    text-decoration: solid;
+    font-size: 20px;
+}
+
+header h1 {
+    color: navy;
+}
+
+footer, header p {
+    font-style: italic;
+}
+
+.colors {
+    border: dashed 2px teal;
+}
+
+    .colors article p {
+        padding: 20px 5px;
+        font-size: 20px;
+    }
+
+        .colors article p span {
+            font-weight: bold;
+            font-style: italic;
+        }
+
+    .colors article h1 {
+        text-shadow: 3px -2px 1px #f27d0c;
+        main
+    }
+    {
+    background-color: rgba(211, 211, 211, 0.9) !important;
+    .bold
+
+{
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.letter-spacing {
+    letter-spacing: .3em;
+}
+
+.word-spacing {
+    word-spacing: 1em;
+}
+
+.fs-px10 {
+    font-size: 10px;
+}
+
+.fs-px20 {
+    font-size: 20px;
+}
+
+.fs-px40 {
+    font-size: 40px;
+}
+
+.fs-em0-7 {
+    font-size: .7em;
+}
+
+.fs-em1-8 {
+    font-size: 1.8em;
+}
+
+.fs-em4 {
+    font-size: 4em;
+}
+
+#html, #js {
+    float: right;
+    height: 75px;
+    margin-left: 20px;
+}
+
+#css {
+    float: left;
+    height: 75px;
+    margin-right: 20px;
+}
+
+#frontendDev section {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/*2 column layout for index floation 1 column*/
+#leftColumn {
+    width: 73%;
+    border-right: 1px dashed teal;
+}
+
+#rightColumn {
+    width: 25%;
+    float: right;
+}
+
+/*2 column layout for css.html floating  2 columns*/
+#cssLeftColumn {
+    width: 75%;
+    float: left;
+    border-right: 1px dashed teal;
+    box-sizing: border-box; /*Changes the way width and height are figured. This means the width of 75% includes the content, padding, and border.*/
+}
+
+#cssRightColumn {
+    width: 25%;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+/*#endregion*/

@@ -1,0 +1,151 @@
+﻿@import;
+
+main {
+    background-color: gold;
+}
+
+header{
+    background-color: darkgray;
+}
+
+p {
+    background-color: gold;
+}
+
+footer{
+    background-color: darkgray;
+}
+
+main {
+    background-color: gold;
+}
+
+nav.navBar {
+    background-color: red;
+}
+
+nav.navBarli {
+    list-style-type: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 5em 10em;
+}
+
+header {
+    font-style: bangers;
+}
+
+footer {
+    font-style: bangers;
+}
+
+h1 {
+    color: red;
+    font-size: 20px;
+  }
+
+h2 {
+    text-decorating: solid;
+    font-size: 12px;
+}
+
+header h1 {
+    color: black;
+}
+
+footer, header p {
+    font-style: bangers;
+}
+
+.colors {
+    border: solid 3px red;
+}
+
+.colors article p {
+    padding: 25px 7px;
+    font-size: 15px;
+}
+
+.colors article p span {
+    font-weight: bold;
+    font-style: bangers;
+}
+
+.colors article h1 {
+
+}
+
+{
+    background-color: rgba(150, 150, 150, 0.5) !important;
+    .bold
+}
+{
+    font-weight: bold;
+}
+
+.bangers {
+    font-style: bangers;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.letter-spacing {
+    letter-spacing: .2em;
+}
+
+.word-spacing {
+    word-spacing: .2em;
+}
+
+.fx-px10 {
+    font-size: 10px;
+}
+
+.fx-px15 {
+    font-size: 15px;
+}
+
+.fs-px25 {
+    font-size: 25px;
+}
+
+.fs-em0-7 {
+    font-size: .5em;
+}
+
+.fs-em1-8 {
+    font-size: 2em;
+}
+
+.fs-em4 {
+    font-size: 4em;
+}
+
+#html, #js {
+    float: right;
+    height: 100px;
+    margin-left: 15px;
+}
+
+#css {
+    float: left;
+    height: 100px;
+    margin-right: 15px;
+}
+
+#frontendDev section {
+    width: 60%;
+    margin: 0 auto;
+}
+
+main{
+
+}
+
+.headingStyle{
+
+}
+
+
