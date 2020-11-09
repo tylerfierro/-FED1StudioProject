@@ -1,7 +1,7 @@
-﻿@import url (custom.css);
+﻿@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 main {
-    background-color: gold;
+    background-color: darkgray;
 }
 
 header{
@@ -9,7 +9,7 @@ header{
 }
 
 p {
-    background-color: gold;
+    background-color: darkgray;
 }
 
 footer{
@@ -17,7 +17,7 @@ footer{
 }
 
 main {
-    background-color: gold;
+    background-color: darkgray;
 }
 
 nav.navBar {
@@ -140,12 +140,67 @@ footer, header p {
     margin: 0 auto;
 }
 
-main{
-
+/*Beginning of tables/floats*/
+#html, #js {
+    float: right;
+    height: 75px;
+    margin-left: 20px;
 }
 
-.headingStyle{
-
+#css {
+    float: left;
+    height: 75px;
+    margin-right: 20px;
 }
 
+#frontendDev section {
+    width: 85%;
+    margin: 0 auto;
+}
 
+/*2 column layout for index floation 1 column*/
+#leftColumn {
+    width: 73%;
+    border-right: 2px solid red;
+}
+
+#rightColumn {
+    width: 25%;
+    float: right;
+}
+
+/*2 column layout for css.html floating  2 columns*/
+#cssLeftColumn {
+    width: 75%;
+    float: left;
+    border-right: 2px solid red;
+    box-sizing: border-box; 
+}
+
+#cssRightColumn {
+    width: 25%;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+/*#endregion*/
+
+/*Tables*/
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin: auto;
+}
+
+td, th {
+    padding: .3em;
+}
+
+thead {
+    background-color: #bada55;
+}

@@ -1,17 +1,23 @@
-﻿main {
+﻿@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+main {
     background-color: silver;
+    text-decoration-color: black;
 }
 
 header {
     background-color: gold;
+    text-decoration-color: mediumpurple;
 }
 
 footer {
     background-color: gold;
+    text-decoration-color: mediumpurple;
 }
 
 main {
     background-color: lightgrey;
+    text-decoration-color: black;
 }
 
 /*#region Navigation Bar*/
@@ -66,15 +72,15 @@ footer, header p {
             font-style: italic;
         }
 
-    .colors article h1 {
+.colors article h1 {
         text-shadow: 3px -2px 1px #f27d0c;
-        main
     }
-    {
-    background-color: rgba(211, 211, 211, 0.9) !important;
-    .bold
 
-{
+main {
+    background-color: rgba(211, 211, 211, 0.9) !important;
+}
+
+.bold {
     font-weight: bold;
 }
 
@@ -135,7 +141,6 @@ footer, header p {
     margin: 0 auto;
 }
 
-/*2 column layout for index floation 1 column*/
 #leftColumn {
     width: 73%;
     border-right: 1px dashed teal;
@@ -146,12 +151,11 @@ footer, header p {
     float: right;
 }
 
-/*2 column layout for css.html floating  2 columns*/
 #cssLeftColumn {
     width: 75%;
     float: left;
     border-right: 1px dashed teal;
-    box-sizing: border-box; /*Changes the way width and height are figured. This means the width of 75% includes the content, padding, and border.*/
+    box-sizing: border-box;
 }
 
 #cssRightColumn {
